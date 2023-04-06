@@ -1,12 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Prosto+One&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Changa+One&family=Karla:wght@300&family=Playfair+Display&family=Prosto+One&family=Quicksand&display=swap');
+
+
 h1 {
     color:black;
     text-align: center;
+    font-family: 'Changa One';
+    font-size: 56px;
 }
 
 body {
-    background-color: gray;
+    background-color: #a9a7a7;
     max-width: 50em;
     margin: 0 auto;
+    font-family: 'Playfair Display', serif;
+    font-size: large;
+}
+
+.page-section > p {
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+form {
+    text-align: center;
 }
 
  ul {
@@ -36,3 +62,27 @@ body {
     clear: both;
     display: table;
 }
+
+.columns {
+    float: left;
+    width: 50%;
+    padding: 2px;
+    text-align: center
+}
+
+body.ny {
+    background-color: #cdafe0;
+}
+
+body.israel {
+    background-color: #fdcc9a;
+}
+
+body.pittsburgh {
+    background-color: rgba(164, 210, 239, 0.873);
+}
+
+body.charleston {
+    background-color: #f7bad2;
+}
+

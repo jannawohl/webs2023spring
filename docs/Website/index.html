@@ -7,15 +7,61 @@
   <body>
     <h1> Janna's travel guide! </h1>
 
-    <p> Welcome to my travel guide! This website will feature content from some of my favorite travel spots with lots of recommendations and pictures. I hope you enjoy and that it inspires you to visit some of these places one day! </p>
+    <p> Hello everyone, my name is Janna Wohl. Welcome to my travel guide! This website will feature content from some of my favorite travel spots with lots of pictures and recommendations. Thank you so much for visiting my website - I hope you enjoy and that it inspires you to visit some of these places one day. Click on the hyperlinks below each image to take you to the full image gallery! </p>
   
     <h2> Places that will be featured:</h2>
 
-    <ul>
-        <a href="new-york.html"> <li>New York City </li> </a>
-        <a href="pittsburgh.html"> <li>Pittsburgh, PA </li> </a>
-        <a href="charleston.html"> <li>Charleston, SC </li> </a>
-        <a href="israel.html"> <li>Israel </li> </a>
-    </ul>
+    <div class="row">
+      <div class="columns">
+        <img src="Title Images/Radiocity.jpg" alt="Radio City Hall" width="275" height="300" >
+        <p><a href="new-york.html"> New York City </a> </p>
+      </div>
+      <div class="columns">
+        <img src="Title Images/mtwash.jpeg" alt="Mount Washington" width="350" height="300" >
+        <p><a href="pittsburgh.html"> Pittsburgh, PA </a> </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="columns">
+        <img src="Title Images/Neonsign.JPG" alt="Charleston Neon Sign" width="275" height="300" >
+        <p><a href="charleston.html"> Charleston, SC </a> </p>
+      </div>
+      <div class="columns">
+        <img src="Title Images/Telavivsign.jpeg" alt="Tel Aviv Sign" width="275" height="300" >
+        <p><a href="israel.html"> Israel </a> </p>
+      </div>
+    </div>
+
 </body>
+
+<div class="container">
+	<h3>Contact Form</h3>
+  <p style="text-align: center;"> Like what you saw on my website? Feel free to send me any questions, comments, or concerns! </p>
+	<form action="mailto:jwohl0417@gmail.com"
+method="POST"
+enctype="multipart/form-data"
+		<label for="first_name">First Name</label>
+		<input name="first_name" type="text" required placeholder="First Name">
+		<br>
+		<label for="last_name">Last Name</label>
+		<input name="last_name" type="text" required placeholder="Last Name">
+		<br>
+		<label for="email">Email</label>
+		<input name="email" type="email" required placeholder="you@gmail.com" title="Please enter your email address">
+		<br>
+		<label for="phone">Phone</label>
+		<input name="phone" type="tel" required placeholder="999-999-9999" pattern="\d{3}[\-]\d{3}[\-]\d{4}" title="Must be ###-###-#### format">
+		<br>
+		<label for="message">Message</label><br>
+		<textarea name="message" cols="30" rows="10" required placeholder="Enter your message here ..."></textarea>
+		<div class="center">
+			<input type="submit" value="Submit">
+		</div>	
+        </form>	
+   </div>
+
+   <br>
+   <br>
+
 </html>
